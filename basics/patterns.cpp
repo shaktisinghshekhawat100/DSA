@@ -58,16 +58,13 @@ void print5(int n)
 }
 void print6(int n)
 {
-    for(int i=1;i<=n;i++)
+    for(int i=n;i>=0;i--)
     {
-        for(int j=i;j<n;j++)
+        for(int j=i;j>0;j--)
         {
-            cout << " ";
+            cout << j;
         }
-        for(int j=1;j<=i;j++)
-        {
-            cout << "*";
-        }
+        
         cout << endl;
     }
 }
@@ -81,7 +78,7 @@ int main()
         int n;
         cout << "Enter the number of rows: ";
         cin >> n;
-        print5(n);
+        print6(n);
     }
    
 }
