@@ -99,6 +99,7 @@ int main()
         cin >> n;
         print7(n);
     }
+    return 0;
    
 }
 
