@@ -1,5 +1,5 @@
 // Brute force approach to count the number of digits in a number
-#include <iostream>
+/*#include <iostream>
 #include <vector>
 #include <algorithm>
 using namespace std;
@@ -22,10 +22,10 @@ int main()
     int result = countDigits(n);
     cout << "The number of digits in the number is: " << result << endl;
     return 0;   
-}
+}*/
 
 //Optimized approach to count the number of digits in a number
-/* #include <iostream>
+#include <iostream>
 #include <cmath>
 using namespace std;
 
@@ -42,4 +42,4 @@ int main()
     int result = countDigits(n);
     cout << "The number of digits in the number is: " << result << endl;
     return 0;   
-} */
+} 
